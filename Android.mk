@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE    := iconv
+LOCAL_MODULE    := libiconv
 
 LOCAL_CFLAGS    := \
 	-DHAVE_CONFIG_H -DBUILDING_LIBICONV -DBUILDING_DLL \
